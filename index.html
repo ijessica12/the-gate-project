@@ -8,152 +8,153 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="bg-gray-100">
     <header>
-        <div class="flex justify-between bg-blue-200">
-            <div class="flex items-center gap-2">
-                <img src="images/ld.svg" alt="linkedIn logo" class="h-6 w-6">
-                <img src="images/twitter.svg" alt="twitter logo" class="h-6 w-6">
-                <img src="images/fb.svg" alt="facebook logo" class="h-5 w-5">
-                <img src="images/yt.svg" alt="youtube logo" class="h-6 w-6">
-                <img src="images/insta.svg" alt="instagram logo" class="h-6 w-6">
+        <div class="flex flex-wrap justify-between items-center bg-blue-200 px-4 py-2 text-sm">
+            <div class="flex items-center gap-2 mb-2 sm:mb-0">
+                <img src="images/ld.svg" alt="LinkedIn" class="h-6 w-6">
+                <img src="images/twitter.svg" alt="Twitter" class="h-6 w-6">
+                <img src="images/fb.svg" alt="Facebook" class="h-5 w-5">
+                <img src="images/yt.svg" alt="YouTube" class="h-6 w-6">
+                <img src="images/insta.svg" alt="Instagram" class="h-6 w-6">
             </div>
-            <div class="flex items-center gap-6 space-x-6 ">
-                <a href="#" class="gap-3 inline-block">Online Services <span class="-rotate-90">&gt;</span></a>
-                <a href="">Publications</a>
+            <div class="flex items-center gap-4">
+                <a href="#" class="flex items-center gap-1">Online Services <span class="-rotate-90">&gt;</span></a>
+                <a href="#">Publications</a>
             </div>
         </div>
-        <div class="flex justify-between items-center px-10 py-4">
-            <img src="images/Logo.png" alt="RSSB logo" class="h-12">
-            <div class="flex items-center gap-6 mt-4">
+        <div class="flex flex-wrap justify-between items-center px-4 sm:px-10 py-4 gap-4">
+            <img src="images/Logo.png" alt="RSSB logo" class="h-10 sm:h-12">
+            <div class="flex flex-wrap gap-6">
                 <div class="flex items-center gap-2">
-                    <img src="images/phone.svg" alt="phone icon" class="h-6 w-6 ">
+                    <img src="images/phone.svg" alt="Phone" class="h-6 w-6">
                     <p>4044 <span class="block text-xs text-gray-600">Toll free lines</span></p>
                 </div>
                 <div class="flex items-center gap-2">
-                    <img src="images/mail.svg" alt="mail icon" class="h-6 w-6">
-                    <p>info@rssb.rw <span class="block text-xs text-gray-600">reach to us</span>
+                    <img src="images/mail.svg" alt="Mail" class="h-6 w-6">
+                    <p>info@rssb.rw <span class="block text-xs text-gray-600">Reach to us</span></p>
                 </div>
             </div>
         </div>
     </header>
-    <section>
-        <div>
-            <nav class="bg-blue-950 px-10 py-3">
-                <ul class="flex gap-8 text-white text-xl uppercase font-semibold">
-                    <li><a href="#" class="hover:text-yellow-400">Home</a></li>
-                    <li><a href="#" class="hover:text-yellow-400">Scheme</a></li>
-                    <li><a href="#" class="hover:text-yellow-400">Investment</a></li>
-                    <li><a href="#" class="hover:text-yellow-400">Management</a></li>
-                    <li><a href="#" class="hover:text-yellow-400">About</a></li>
-                    <li><a href="#" class="hover:text-yellow-400">Career</a></li>
-                    <li><a href="#" class="hover:text-yellow-400">News & Events</a></li>
-                </ul>
-            </nav>
-        </div>
-    </section>
-    <section>
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10 items-center">
-                <div class="space-y-6">
-                    <p class="text-xl md:text-2xl font-bold leading-snug text-gray-900">
-                        EJO HEZA <span class="text-yellow-500">Save</span> for a better future<br>for you and your
-                        family
-                    </p>
-                    <p class="text-lg text-blue-950 font-semibold">EJO HEZA</p>
-                    <button
-                        class="bg-blue-950 text-white px-6 py-2 rounded-md hover:bg-white hover:text-blue-950  font-bold transition-colors">
+    <nav class="bg-blue-900 text-white">
+        <ul class="flex flex-wrap justify-center items-center uppercase px-4 sm:px-12 py-4 gap-4 sm:gap-6 text-sm">
+            <li><a href="#" class="hover:text-yellow-400">Home</a></li>
+            <li><a href="#" class="hover:text-yellow-400">Scheme</a></li>
+            <li><a href="#" class="hover:text-yellow-400">Investment</a></li>
+            <li><a href="#" class="hover:text-yellow-400">Management</a></li>
+            <li><a href="#" class="hover:text-yellow-400">About</a></li>
+            <li><a href="#" class="hover:text-yellow-400">Career</a></li>
+            <li><a href="#" class="hover:text-yellow-400">News & Events</a></li>
+        </ul>
+    </nav>
+    <section class="py-6 bg-gray-200">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-4 sm:px-6 py-10 items-center">
+            <div class="space-y-6 text-center md:text-left">
+                <p class="text-2xl sm:text-3xl font-bold leading-snug text-gray-900">
+                    EJO HEZA <span class="text-yellow-500">Save</span> for a better future<br>
+                    for you and your family
+                </p>
+                <p class="text-lg text-blue-950 font-semibold">EJO HEZA</p>
+                <div
+                    class="bg-blue-950 w-40 h-10 flex items-center justify-center text-white font-bold px-6 py-2 rounded-md hover:bg-white hover:text-blue-950 border border-blue-950 transition-colors duration-300">
+                    <button>
                         Learn More
                     </button>
                 </div>
-                <div>
-                    <img src="images/ejo.jpeg" alt="Ejo Heza" class="w-full h-auto rounded-lg shadow-lg object-cover" />
-                </div>
+            </div>
+            <div>
+                <img src="images/ejo.jpeg" alt="Ejo Heza" class="w-full h-64 sm:h-96 object-cover rounded shadow-lg" />
             </div>
         </div>
-        <div class="grid grid-cols-4 gap-8 text-center">
-            <div class="bg-white p-6 rounded shadow">
-                <h3 class="text-3xl font-bold text-blue-950">Member First</h3>
+    </section>
+
+
+    <section class="bg-gray-200 py-16">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6 pb-16 text-center">
+            <div class="border rounded-lg p-6 hover:shadow-lg  bg-white transition-shadow duration-300">
+                <img src="images/member.png" alt="member" class="mb-4 w-20 h-20 mx-auto object-contain">
+                <p class="text-xl font-bold text-blue-950 mt-4">Member First</p>
                 <p class="mt-2 text-gray-700"><span class="text-blue-900">13 Million</span> of Rwandans are covered by
                     RSSB Services</p>
             </div>
-            <div class="bg-white p-6 rounded shadow">
-                <h3 class="text-3xl font-bold text-shadow-blue-950]">Experience<h3>
-                        <p class="mt-2 text-gray-700"><span class="text-blue-900">60 years </span>of service for your
-                            safety
-                            and well-being</p>
+            <div class="border rounded-lg p-6 hover:shadow-lg  bg-white transition-shadow duration-300">
+                <img src="images/experience.png" alt="experience" class="mb-4 w-20 h-20 mx-auto object-contain">
+                <p class="text-xl font-bold text-blue-950 mt-4">Experience</p>
+                <p class="mt-2 text-gray-700"><span class="text-blue-900">60 years</span> of service for your safety and
+                    well-being</p>
             </div>
-            <div class="bg-white p-6 rounded shadow">
-                <h3 class="text-3xl font-bold text-blue-950"> Branches</h3>
-                <p class="mt-2 text-gray-700">Our service Decentralized in <span class="text-blue-800">30
-                        Branches</span>
-                    for your satisfaction</p>
+            <div class="border rounded-lg p-6 hover:shadow-lg  bg-white transition-shadow duration-300">
+                <img src="images/branch.png" alt="branch" class="mb-4 w-20 h-20 mx-auto object-contain">
+                <p class="text-xl font-bold text-blue-950 mt-4">Branches</p>
+                <p class="mt-2 text-gray-700">Our service decentralized in <span class="text-blue-800">30
+                        Branches</span> for your satisfaction</p>
             </div>
-            <div class="bg-white p-6 rounded shadow">
-                <h3 class="text-3xl font-bold text-blue-950">Data-Driven</h3>
-                <p class="mt-2 text-gray-700">Learning from our data to impove the services offered to our members</p>
-            </div>
-        </div>
-    </section>
-    <section>
-
-        <div class="font-bold ">
-            <h1 class="text-center text-gray-600 text-5xl mb-10">
-                Optimistic and forward-looking <br> agent of central government, working to achieve <br>
-                <span class="text-blue-800"> the financial security and health of all Rwandans.</span>
-            </h1>
-
-            <h3 class="text-2xl text-blue-800 text-center mb-8">Social Protection Schemes</h3>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Scheme Card -->
-            <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <img src="images/pension.svg" alt="Pension" class="h-14 w-14 mb-4 mx-auto">
-                <h4 class="font-semibold text-center text-lg mb-2">Pension Scheme</h4>
-                <p class="text-center text-gray-600 mb-4">Retire with dignity</p>
-                <a href="#" class="text-blue-600 hover:underline block text-center font-medium">Learn more</a>
-            </div>
-
-            <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <img src="images/hazard.svg" alt="Occupational Hazards" class="h-14 w-14 mb-4 mx-auto">
-                <h4 class="font-semibold text-center text-lg mb-2">Occupational Hazards</h4>
-                <p class="text-center text-gray-600 mb-4">We Are Here For You</p>
-                <a href="#" class="text-blue-600 hover:underline block text-center font-medium">Learn more</a>
-            </div>
-
-            <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <img src="images/medical.svg" alt="Medical Scheme" class="h-14 w-14 mb-4 mx-auto">
-                <h4 class="font-semibold text-center text-lg mb-2">Medical Scheme</h4>
-                <p class="text-center text-gray-600 mb-4">Our Health, Our Future</p>
-                <a href="#" class="text-blue-600 hover:underline block text-center font-medium">Learn more</a>
-            </div>
-
-            <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <img src="images/cbhi.svg" alt="CBHI Scheme" class="h-14 w-14 mb-4 mx-auto">
-                <h4 class="font-semibold text-center text-lg mb-2">CBHI Scheme</h4>
-                <p class="text-center text-gray-600 mb-4">Giving You Happiness At Best Rate</p>
-                <a href="#" class="text-blue-600 hover:underline block text-center font-medium">Learn more</a>
-            </div>
-
-            <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <img src="images/ejoheza.svg" alt="EjoHeza" class="h-14 w-14 mb-4 mx-auto">
-                <h4 class="font-semibold text-center text-lg mb-2">EjoHeza</h4>
-                <p class="text-center text-gray-600 mb-4">Start Early And Reap The Rewards.</p>
-                <a href="#" class="text-blue-600 hover:underline block text-center font-medium">Learn more</a>
-            </div>
-
-            <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <img src="images/maternity.svg" alt="Maternity Leave" class="h-14 w-14 mb-4 mx-auto">
-                <h4 class="font-semibold text-center text-lg mb-2">Maternity Leave</h4>
-                <p class="text-center text-gray-600 mb-4">Enjoy Your Maternity Leave With Your Full Salary</p>
-                <a href="#" class="text-blue-600 hover:underline block text-center font-medium">Learn more</a>
+            <div class="border rounded-lg p-6 hover:shadow-lg  bg-white transition-shadow duration-300">
+                <img src="images/data.jpeg" alt="data driven" class="mb-4 w-20 h-20 mx-auto object-contain">
+                <p class="text-xl font-bold text-blue-950 mt-4">Data-Driven</p>
+                <p class="mt-2 text-gray-700">Learning from our data to improve the services offered to our members</p>
             </div>
         </div>
     </section>
+
+
+    <div class="font-bold mb-12 text-center px-4 sm:px-0">
+        <p class="text-gray-600 text-xl sm:text-2xl mb-10 leading-relaxed">
+            Optimistic and forward-looking <br>
+            agent of central government, working to achieve <br>
+            <span class="text-blue-800">the financial security and health of all Rwandans.</span>
+        </p>
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+        <p class="text-xl text-blue-800 font-bold text-center mb-12">Social Protection Schemes</p>
+    </div>
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-6">
+        <div class="border rounded-lg p-6 hover:shadow-lg bg-white transition-shadow duration-300">
+            <img src="images/pension.svg" alt="Pension" class="h-14 w-14 mb-4 mx-auto">
+            <h4 class="font-semibold text-center text-lg mb-2">Pension Scheme</h4>
+            <p class="text-gray-600 mb-4">Retire with dignity</p>
+        </div>
+
+        <div class="border rounded-lg p-6 hover:shadow-lg bg-white transition-shadow duration-300">
+            <img src="images/hazard.svg" alt="Occupational Hazards" class="h-14 w-14 mb-4 mx-auto">
+            <h4 class="font-semibold text-center text-lg mb-2">Occupational Hazards</h4>
+            <p class="text-gray-600 mb-4">We Are Here For You</p>
+        </div>
+
+        <div class="border rounded-lg p-6 hover:shadow-lg bg-white transition-shadow duration-300">
+            <img src="images/medical.svg" alt="Medical Scheme" class="h-14 w-14 mb-4 mx-auto">
+            <h4 class="font-semibold text-center text-lg mb-2">Medical Scheme</h4>
+            <p class="text-gray-600 mb-4">Our Health, Our Future</p>
+        </div>
+
+        <div class="border rounded-lg p-6 hover:shadow-lg bg-white transition-shadow duration-300">
+            <img src="images/cbhi.svg" alt="CBHI Scheme" class="h-14 w-14 mb-4 mx-auto">
+            <h4 class="font-semibold text-center text-lg mb-2">CBHI Scheme</h4>
+            <p class="text-gray-600 mb-4">Giving You Happiness At Best Rate</p>
+        </div>
+
+        <div class="border rounded-lg p-6 hover:shadow-lg bg-white transition-shadow duration-300">
+            <img src="images/ejoheza.svg" alt="EjoHeza" class="h-14 w-14 mb-4 mx-auto">
+            <h4 class="font-semibold text-center text-lg mb-2">EjoHeza</h4>
+            <p class="text-gray-600 mb-4">Start Early And Reap The Rewards.</p>
+        </div>
+
+        <div class="border rounded-lg p-6 hover:shadow-lg bg-white transition-shadow duration-300">
+            <img src="images/maternity.svg" alt="Maternity Leave" class="h-14 w-14 mb-4 mx-auto">
+            <h4 class="font-semibold text-center text-lg mb-2">Maternity Leave</h4>
+            <p class="text-gray-600 mb-4">Enjoy Your Maternity Leave With Your Full Salary</p>
+        </div>
+    </div>
+
     <section>
         <div class="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10 items-center">
             <div>
-                <p class="text-4xl font-semibold text-blue-950">Never miss your contributions again</p>
+                <h3>
+                    <p class="text-4xl font-semibold text-blue-950">Never miss your contributions again</p>
+                </h3>
                 <p class="mb-6 text-gray-500">
                     <span class="font-semibold text-blue-900">Imisanzu</span> revolutionizes the way you manage your
                     social security contributions.
@@ -161,11 +162,10 @@
                     Enjoy convenience and transparency.
                     Take control of your future and join Imisanzu today.
                 </p>
-                <div class="p-10 bg-gray-100">
-                    <button><span class="bg-blue-950 text-white font-bold 
-                 hover:bg-white hover:text-blue-950 border border-blue-950 
-                 transition-colors duration-300">Get Started</span>
-                    </button>
+                <div
+                    class="bg-blue-950 w-40 h-10 flex items-center justify-center text-white font-bold px-6 py-2 rounded-md hover:bg-white hover:text-blue-950 border border-blue-950 transition-colors duration-300">
+                    <button>Get Start</button>
+
                 </div>
             </div>
             <div>
@@ -173,34 +173,177 @@
             </div>
         </div>
     </section>
-    <div>
-        <p>Digital transformation</p>
-        <p>A major focus for RSSB going into 2025 is to transform into a member first,
-            data driven, high performing organization and a big part of that is to
-            complete its shift to digital. </p>
-    </div>
-    <div>
-        <div>
-            <p>Changing from Legacy processes and systems</p>
-            <p>As we enter a new era of technology advances and data-driven business models,
-                we are upgrading our systems and processes to gain in operational efficiency, address technology
-                constraints,
-                meet members experience expectations and support adoption and integration with other systems.</p>
-        </div>
-        <div>
-            <p>Non-paper based processes</p>
-            <p>We are moving away from the time-taking processes as we process large number of member's claims.
-                Members and partners will be enjoying the benefits
-                such as timely and faster responses and reimbursements for their claims
-                by reducing the time taken for processes to be completed.</p>
-        </div>
-        <div>
-            <p>Ensure the compliance rate in mandatory contributions</p>
-            <p>Digital-led compliance for private and public institutions to ensure the compliance and fraud monitoring.
-                Our members will have a seamless and transparent access of their contributions/benefits via intelligent
-                systems and notification ecosystem.</p>
-        </div>
-    </div>
+    <section class="bg-white py-16 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="max-w-4xl mx-auto  mb-12">
+                <p class="text-3xl font-bold text-blue-950 mb-4">Digital Transformation</p>
+                <p class="text-gray-700 text-lg">
+                    A major focus for RSSB going into 2025 is to transform into a member first,
+                    <span class="text-yellow-400">data-driven</span>,
+                    high-performing organization —
+                    and a big part of that is completing its
+                    <span class="text-yellow-400">shift to digital</span>.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img src="images/grw.jpeg" alt="processes" class="w-12 h-12 object-cover rounded-lg shadow-md mb-4">
+                    <p class="text-xl font-semibold text-blue-950 mb-2">
+                        Changing from Legacy Processes and Systems
+                    </p>
+                    <p class="text-gray-700">
+                        As we enter a new era of technology advances and data-driven business models, we are upgrading
+                        our systems
+                        and processes to gain operational efficiency, meet member expectations, and support integration
+                        with other systems.
+                    </p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img src="images/nopaper.jpeg" alt="no paper-based processes"
+                        class="w-12 h-12 object-cover rounded-lg shadow-md mb-4">
+                    <p class="text-xl font-semibold text-blue-950 mb-2">
+                        Non-Paper Based Processes
+                    </p>
+                    <p class="text-gray-700">
+                        We are moving away from time-consuming paper-based processes. Members and partners will benefit
+                        from faster responses and quicker reimbursements by reducing processing time.
+                    </p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img src="images/safety.jpeg" alt="safety and security"
+                        class="w-12 h-12 object-cover rounded-lg shadow-md mb-4">
+                    <p class="text-xl font-semibold text-blue-950 mb-2">
+                        Ensure Compliance in Mandatory Contributions
+                    </p>
+                    <p class="text-gray-700">
+                        Digital-led compliance for institutions ensures fraud monitoring and transparency. Members will
+                        access their contributions
+                        and benefits through intelligent systems and notifications.
+                    </p>
+                </div>
+            </div>
+            <section class="bg-gray-100 py-16 px-6">
+                <div class="max-w-6xl mx-auto flex flex-col items-center space-y-8 px-4 sm:px-0">
+                    <p class="text-lg sm:text-xl text-gray-700 italic text-center leading-relaxed max-w-3xl">
+                        “We have ambitious plans to transform RSSB, by 2025, into an organisation that is not just fully
+                        committed to delivering for our members but that puts members at the heart of all our planning
+                        and all our decision-making. Our vision is for RSSB to use all of its power and energy on behalf
+                        of our members: to be best-in-class in serving their interests, as a friend and source of help,
+                        as a modern, efficient organisation, with user-friendly, enabling technology; as a source of
+                        input
+                        to Government thinking; as a national and international thought-leader in social policy; as the
+                        leading strategic investor in our chosen markets; and as a prudent but ambitious business
+                        partner."
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center space-x-0 sm:space-x-4 space-y-4 sm:space-y-0">
+                        <img src="images/CEO.jpeg" alt="CEO" class="w-20 h-20 rounded-full object-cover">
+                        <div class="text-center sm:text-left">
+                            <p class="text-lg font-semibold text-blue-950">Regis RUGEMANSHURO</p>
+                            <p class="text-gray-600">CEO, RSSB</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="text-center mb-10 px-4">
+                <h2>
+                    <span class="text-3xl font-bold text-blue-950 uppercase tracking-wide">News & Events</span>
+                </h2>
+            </div>
+
+            <section class="max-w-6xl mx-auto grid gap-8 md:grid-cols-3 px-4 sm:px-6 mt-10">
+                <article class="flex flex-col">
+                    <img src="images/meeting.jpeg" alt="meeting"
+                        class="w-full h-64 sm:h-72 md:h-96 object-cover rounded shadow-lg mb-4">
+                    <p class="text-gray-500 text-sm">8 months ago</p>
+                    <p class="text-lg font-semibold text-blue-950">RSSB Engages the Private Sector on Pension reforms...
+                    </p>
+                    <p class="text-gray-700 flex-grow">
+                        Kigali: Thursday, November 28th, 2024 – The Rwanda Social Security Board (RSSB)
+                        engaged with the private sector to discuss upcoming pension reforms...
+                    </p>
+                    <p class="text-blue-600 font-medium mt-2 cursor-pointer hover:underline">Read more</p>
+                </article>
+
+                <article class="flex flex-col">
+                    <img src="images/play.jpeg" alt="play"
+                        class="w-full h-64 sm:h-72 md:h-96 object-cover rounded shadow-lg mb-4">
+                    <p class="text-gray-500 text-sm">2 years ago</p>
+                    <p class="text-lg font-semibold text-blue-950">RSSB champions youth basketball in EjoHeza
+                        Tournament...</p>
+                    <p class="text-gray-700 flex-grow">
+                        On 14th January 2014, Rwanda Social Security Board (RSSB) participated in
+                        the 3x3 EjoHeza Tournament, collaboratively organized by partners...
+                    </p>
+                    <p class="text-blue-600 font-medium mt-2 cursor-pointer hover:underline">Read more</p>
+                </article>
+
+                <article class="flex flex-col">
+                    <img src="images/award.jpeg" alt="award"
+                        class="w-full h-64 sm:h-72 md:h-96 object-cover rounded shadow-lg mb-4">
+                    <p class="text-gray-500 text-sm">8 months ago</p>
+                    <p class="text-lg font-semibold text-blue-950">RSSB gets data controller certification...</p>
+                    <p class="text-gray-700 flex-grow">
+                        The National Cyber Security Authority (NCSA) presented Rwanda Social
+                        Security Board (RSSB) with Data Controller certification...
+                    </p>
+                    <p class="text-blue-600 font-medium mt-2 cursor-pointer hover:underline">Read more</p>
+                </article>
+
+                <div class="md:col-span-3 text-center mt-8">
+                    <div class="flex items-center justify-center min-h-screen">
+                        <div
+                            class=" w-40 h-10 flex items-center justify-center text-center text-blue-800  font-bold px-6 py-2 rounded-md hover:bg-white hover:text-blue-950 border border-blue-950 transition-colors duration-300">
+                            <button>
+                                View More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="bg-gray-200 text-gray-400 pt-12 pb-6 px-6 md:px-12">
+                <div class="max-w-full lg:max-w-full mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 px-6 lg:px-12">
+                    <div>
+                        <h3>
+                            <span class="text-xl text-gray-950 uppercase font-bold mb-4">Get in Touch</span>
+                        </h3>
+                        <p>KN 3 Rd African Union Boulevard</p>
+                        <p>Kiyovu, Nyarugenge</p>
+                        <p>P.O Box 250/6655 Kigali-Rwanda</p>
+                        <p class="mt-2">Tel: 4044 (Toll Free Line)</p>
+                        <p>5006 (EjoHeza)</p>
+                    </div>
+                    <div>
+                        <h3>
+                            <span class="text-xl text-gray-950 uppercase font-bold mb-4">Important Links</span>
+                        </h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:underline">Tenders</a></li>
+                            <li><a href="#" class="hover:underline">Gallery</a></li>
+                            <li><a href="#" class="hover:underline">Announcements</a></li>
+                            <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>
+                            <span class="text-xl text-gray-950 uppercase font-bold mb-4">Services</span>
+                        </h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:underline">Apply for employee number</a></li>
+                            <li><a href="#" class="hover:underline">Check for your contributions</a></li>
+                            <li><a href="#" class="hover:underline">Pay employee contributions</a></li>
+                            <li><a href="#" class="hover:underline">Pension simulator</a></li>
+                            <li><a href="#" class="hover:underline">RSSB clearance certificate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+            <div class="border-t border-white/20 mt-10 pt-4 text-gray-500 ">
+                © 2025 Rwanda Social Security Board
+            </div>
+
+
 </body>
 
 </html>
